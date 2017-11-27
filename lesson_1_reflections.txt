@@ -1,0 +1,69 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+ By giving me the line numbers and comparisons of the differences between the files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By making it easier for you to refer back to names of things, as well as easier to read over/check with a diff.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You can save very specific versions, with planned changes- makes a better archive/easier to track progress + coordinate work. etc/idk
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because this is meant for working with large coding/developer projects and multiple different pieces of a project, not one project as a doc/spreadsheet/power point would be. Coding. Because Docs is not the same as Github. ? I don't know.
+
+How can you use the commands git log and git diff to view the history of files?
+
+  By looking at the differences between the two files- the things that have been changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you can always revert back to a precise moment, when you knew what was what, and start again. Everything is ordered and you can compare versions to see when something went wrong/changed.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Most work that I do for starting technical writing (fingers crossed), I might imagine. Any time I work with developers. Any time I write/use code. I hesitate to say that I could use it on papers/stories. But then again, I suppose you could, and leave notes and comments on it/the changes made. But I would have to imagine theres something better for that already. Maybe Scrivener has some good features for version control. Not that I've ever used it- just heard about it. This is an intentional ramble to see what happens when I deleted stuff later. Wait, are we deleting stuff from this. I don't actually know.
+
+    How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Not wasting time with mistakes because of easy to reference to earlier work and the specific tasks done over specific pieces of the project idk. qwertyuiopasdfghjklzxcvbnm
+
+
+
+By the way, my confusion has been clearing up as i've watched the videos. All these questions are being answered, which is grat, to the point where I think maybe I was supposed to do this later or something.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro manual
+specific points of prgoress, with history/brief description, easy to log and keep track of
+
+Pro auto
+You dont forget to save-it's automatic.
+
+Infer the cons I guess. I'm a positive guy, deal with it.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Similar to previous questions. Because it is mostly used for coding projects, with interconnected files and pieces. Not a paper, or presentation, or a single piece like a word doc or Doc or spreadsheet. (just one type of file)
+
+How can you use the commands git log and git diff to view the history of files?
+
+I used git log to look at all the commits done, and I (finally, after figuring out the paste thing) used git diff to compare differences/changes between the 'Revert controls' committ and the prior one. Pretty cool. 
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you can easily revert back to previous versions, with recorded changes/notes on what you did each time. Easy to keep track of developments and fix any mistakes quickly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Technical writing, hopefully. First, let's finish this course. It would be interesting if I could grow used to/comfortable enough to use this for everyday kinds of things. It's an organizing influence, let along an organizing tool.
+
+Oh, and I want to learn Git so I can contribute to some documentation requests on Github. I'm looking at Silex right now I think that's a realistic project to try to contribute to. (It's been forever since I took Java, or any real programming). Need to learn python on edx or something. 
