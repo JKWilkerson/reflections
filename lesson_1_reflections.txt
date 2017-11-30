@@ -1,3 +1,5 @@
+changing this here to test how git add works.
+
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
