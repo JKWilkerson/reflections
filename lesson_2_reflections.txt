@@ -1,18 +1,31 @@
 What happens when you initialize a repository? Why do you need to do it?
+It turns it into a git repository/activates it/adds the git invisible folder (.git)- sort of how like GDrive hides the invisibles in the folders that let the syncing work.
 
 How is the staging area different from the working directory and the repository?
-What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+It is purgatory before the repository heaven. It is where you decide what will be included in the repository. Files in the working directory are not included in the commit.
+
+What value do you think it offers?
+lets you control what things are on git/affected by git.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the files in the staging area to the working directory, to see what changes from there you are planning to add to the repository. Also you can compare the most recent commit in the repository to the files in your staging area, which can show you the context and progression of your changes in reference to what you did previously. Actually, am I wrong? Because we used 'git checkout master', I can assume that it compares to whatever is the head at that time. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Like in the lesson: when you have an experimental feature you want to tinker with or another version you want to keep seperate and intact (or vice versa, you want to keep an intact master branch while you test something out.)
+
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+By... making the branch structure... visualized.
+Showing the sequence of branches and how reachability works. 
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A new commit is created with the things that were modified -added or deleted- present in the new commit. Things that were the same in both versions of the file remain. Things that were removed in one or added in the other are included.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The automatic merging speeds up the process, its weakness being that it can't always tell how merge conflicts should be handled. A manual merger would do a better job, in that case.
